@@ -1,0 +1,8 @@
+conda create -p venv python==3.10 -y
+conda activate "D:\Large Language Model\Bulding end to end LLM and Large image model application\venv"
+
+pip install -r requirements.txt
+
+streamlit run "D:\Large Language Model\Bulding end to end LLM and Large image model application\app.py"
+streamlit run "D:\Large Language Model\Bulding end to end LLM and Large image model application\vission.py"
+streamlit run "D:\Large Language Model\Bulding end to end LLM and Large image model application\qachat.py"
